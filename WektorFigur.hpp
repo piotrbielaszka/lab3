@@ -38,4 +38,11 @@ public:
         delete f[ilosc_elementow - 1];
         ilosc_elementow--;
     }
+
+    void idWszystkie(){
+        for (int i = 0; i < ilosc_elementow; i++)
+        {
+            f[i]->id();
+        }
+    }
 };

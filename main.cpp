@@ -1,6 +1,7 @@
 #include "Figura.hpp"
 #include "WektorFigur.hpp"
 #include "FabrykaFigur.hpp"
+#include "WizytatorFigurBaza.hpp"
 #include <iostream>
 
 void id(const Figura &f)
