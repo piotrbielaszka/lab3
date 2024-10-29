@@ -1,4 +1,4 @@
-//#include "Figura.hpp"
+// #include "Figura.hpp"
 
 #define dlugosc_wetk 10
 
@@ -39,10 +39,19 @@ public:
         ilosc_elementow--;
     }
 
-    void idWszystkie(){
+    void idWszystkie()
+    {
         for (int i = 0; i < ilosc_elementow; i++)
         {
             f[i]->id();
+        }
+    }
+
+    void wizytujWszystkie(WizytatorFigurBaza &v)
+    {
+        for (int i = 0; i < ilosc_elementow; i++)
+        {
+            f[i]->akceptuj(v);
         }
     }
 };
